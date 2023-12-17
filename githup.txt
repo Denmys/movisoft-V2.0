@@ -2,4 +2,4 @@
 git status - Para ver la modificaciones pendientes a sinronizar
 git add . - para agregar al repositorio local los cambios
 git commit -m "Descripcion de los cambios" para grabar los cambios en el repo local
-git pull origin main - para publicar los cambios en repositorio remoto.
+git push -u origin main - para publicar los cambios en repositorio remoto.
