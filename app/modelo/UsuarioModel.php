@@ -19,7 +19,7 @@
         }
     
         public function asignarRol($username, $rol) {
-            $query = "UPDATE usuarios SET rol = :rol WHERE username = :username";
+            $query = "UPDATE usuarios SET categoria = :rol WHERE username = :username";
             // Ejecutar la consulta para asignar el rol al usuario
         }
     }
