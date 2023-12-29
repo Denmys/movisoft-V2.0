@@ -5,7 +5,12 @@
     $contrasena = '';
 
     try {
-        $conexion = new PDO("mysql:host=$servidor;dbname=$basedatos", $usuario, $contrasena);
+        $conexion = new PDO("mysql:
+                                    host=$servidor;
+                                    dbname=$basedatos", 
+                                    $usuario, 
+                                    $contrasena);
+                                    
         // Establecer el modo de error de PDO a excepción
         $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         echo "Conexión exitosa";
