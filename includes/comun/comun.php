@@ -18,5 +18,5 @@
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
     <link rel="canonical" href="https://www.movisoftvc.com/">
-    <link href="./src/css/movisoft.css" rel="stylesheet"/>
+    <link href="./public/src/css/movisoft.css" rel="stylesheet"/>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>

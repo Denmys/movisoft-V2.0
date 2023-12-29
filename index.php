@@ -23,7 +23,7 @@
     <title>MoviSoft</title> 
 
     <!-- Agregando Dependencias -->
-        <?php require_once "./comun.php" ?>
+        <?php require_once "./includes/comun/comun.php" ?>
     <!-- Final de Dependencias -->
 
 </head>
