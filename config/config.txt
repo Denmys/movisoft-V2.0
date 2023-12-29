@@ -1,0 +1,1 @@
+ Contendrá archivos de configuración para la base de datos, rutas, y otros parámetros de la aplicación.

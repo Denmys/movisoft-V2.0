@@ -1,0 +1,1 @@
+Aquí estarán los archivos de la aplicación, como controladores, modelos, vistas, etc.

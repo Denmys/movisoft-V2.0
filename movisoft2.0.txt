@@ -1,0 +1,15 @@
+Arquitectura de la aplicación:
+
+- MVC (Modelo-Vista-Controlador): Organiza la aplicación en modelos para la lógica de negocio, vistas para la presentación de datos, 
+y controladores para manejar las peticiones del usuario.
+
+- Servicios: Separar la lógica de negocio en servicios para mantener un código más limpio y modular.
+
+Gestión de dependencias:
+
+- Utilizar Composer para gestionar las dependencias de terceros y mantener actualizadas las bibliotecas.
+
+Seguridad:
+- Implementar medidas de seguridad, como la validación de datos de entrada, prevención de inyección de SQL, 
+    y autenticación/autorización de usuarios.
+

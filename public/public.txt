@@ -1,0 +1,1 @@
+Este directorio contendrá los archivos accesibles públicamente, como los scripts PHP, hojas de estilo, imágenes, etc.

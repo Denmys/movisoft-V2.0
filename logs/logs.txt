@@ -1,0 +1,1 @@
+Para almacenar archivos de registro (logs) generados por la aplicación.
