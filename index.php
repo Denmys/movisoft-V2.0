@@ -29,6 +29,9 @@
 </head>
 
 <body>
+        <!-- Agregando el Header -->
+    <?php require_once "./app/vistas/header.php" ?>
+    <?php require_once "./app/vistas/SeccionInicio.php" ?>
 
 <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCRVLM2"
