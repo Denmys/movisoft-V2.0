@@ -82,6 +82,8 @@ header{
     display: none;
 }
 
-
+.home-image img{
+    width: 25%;
+}
 
 
