@@ -1,3 +1,4 @@
+<script src="/public/src/script/movisoft.js"></script>
 <section id="home" class="home">
     <div class="home-content">
         <h1>Bienvenido a MoviSoft</h1>

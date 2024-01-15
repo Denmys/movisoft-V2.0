@@ -59,7 +59,7 @@
 
 <!-- Agregando Archivos JS (noscript) -->
 
-    <script src="./src/script/movisoft.js"></script>
+    <script src="movisoft.js"></script>
 
 <!-- Agregando Archivos JS (noscript) -->
 
