@@ -4,32 +4,36 @@
         <h1>Bienvenido a MoviSoft</h1>
 
         <div class="change-text">
-            <h3>Infraestructura tecnológica y servicios informáticos</h3>
+            <h2 class="eslogan">"Soluciones tecnológicas a medida para potenciar tu negocio"</h2>
+            <br>
             <h3>
-                <span class="word">Servicios de Mantenimiento</span>
-                <span class="word">Mantenimiento de Sistemas Informáticos</span>
-                <span class="word">Consultoría en Tecnología de la Información</span>
-                <span class="word">Servicio Integral de las Redes y Comunicaciones.</span>
-                <span class="word">Servicios de Seguridad Informática</span>
-                <span class="word">Servicios de Recuperación de Datos</span>
-                <span class="word">Virtualización de Servidores </span>
-                <span class="word">Servicio de Desarrollo de Software</span>
-                <span class="word">Servicios en la Nube</span>
-                <span class="word">Reparación y Mantenimiento de Hardware</span>
-                <span class="word">Venta de Equipos de Computo y las Comunicaciones</span>
-                <span class="word">Venta de Equipos Eléctricos, Electrónicos y de Consumo</span>
+                <span class="word">Servicios&nbsp;de&nbsp;Mantenimiento</span>
+                <span class="word">Mantenimiento&nbsp;de&nbsp;Sistemas&nbsp;Informáticos</span>
+                <span class="word">Consultoría&nbsp;en&nbsp;Tecnología&nbsp;de&nbsp;la&nbsp;Información</span>
+                <span class="word">Servicio&nbsp;Integral&nbsp;de&nbsp;Redes&nbsp;y&nbsp; las&nbsp;Comunicaciones.</span>
+                <span class="word">Servicios&nbsp;de&nbsp;Seguridad&nbsp;Informática</span>
+                <span class="word">Servicios&nbsp;de&nbsp;Recuperación&nbsp;de&nbsp;Datos</span>
+                <span class="word">Virtualización&nbsp;de&nbsp;Servidores </span>
+                <span class="word">Servicio&nbsp;de&nbsp;Desarrollo&nbsp;de&nbsp;Software</span>
+                <span class="word">Servicios&nbsp;en&nbsp;la&nbsp;Nube</span>
+                <span class="word">Reparación&nbsp;y&nbsp;Mantenimiento&nbsp;de&nbsp;Hardware</span>
+                <span class="word">Venta&nbsp;de&nbsp;Equipos&nbsp;de&nbsp;Computo&nbsp;y&nbsp;las&nbsp;Comunicaciones</span>
+                <span class="word">Venta&nbsp;de&nbsp;Equipos&nbsp;Eléctricos,&nbsp;Electrónicos&nbsp;y&nbsp;de&nbsp;Consumo</span>
             </h3>
         </div>
-        <p>Descubre qué es el mantenimiento de hardware y su importancia para cuidar y reemplazar oportunamente 
-            los componentes físicos de una computadora.</p>
-        
+        <br>
+        <p>En el vertiginoso mundo de la tecnología, tener un socio confiable para tus necesidades informáticas es esencial. 
+            En MoviSoft, entendemos las complejidades y desafíos que enfrentas en la era digital en constante evolución. 
+            Como líderes en la industria de los servicios informáticos, nos enorgullece ser tu guía en este viaje hacia la 
+            eficiencia tecnológica y el éxito empresarial.</p>
+        <br>
         <div class="info-box">
             <div class="email-info">
-                <h5>Email:</h5>
+                <h5 class="bx bx-mail-send">&nbsp;Email:</h5>
                 <span>administrador@movisoftvc.com</span>
             </div>
-            <div class="email-info">
-                <h5>Teléfono:</h5>
+            <div class="phone-info">
+                <h5 class="bx bx-phone">&nbsp;Teléfono:</h5>
                 <span>+53 52378034</span>
             </div>
         </div>
@@ -46,7 +50,105 @@
 
     <div class="home-image">
         <div class="img-box">
-            <img src="./public/src/img/tech.png" alt="home-image">
+            <img src="./public/src/img/informatica.png" alt="home-image">
+        </div>
+
+        <div class="liquid-shape">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <path fill="#12f7ff">
+                    <animate attributeName="d"
+                        dur="20000ms"
+                        repeatCount="indefinite"
+                        values="
+                        M405,295.5Q408,341,371.5,369.5Q335,398,292.5,441.5Q250,485,208,440Q166,395,127,369.5Q88,344,68,297Q48,250,53.5,195Q59,140,
+                        107,112.5Q155,85,202.5,64Q250,43,296.5,65.5Q343,88,386,117.5Q429,147,415.5,198.5Q402,250,405,295.5Z;
+
+                        M457,301Q427,352,399.5,406.5Q372,461,311,470.5Q250,480,211.5,432Q173,384,136,360.5Q99,337,64,293.5Q29,250,67,208Q105,166,
+                        132,129Q159,92,204.5,57Q250,22,311,31Q372,40,380.5,105Q389,170,438,210Q487,250,457,301Z;
+
+                        M445.5,304Q436,358,404,409.5Q372,461,311,438.5Q250,416,195,428.5Q140,441,89,406.5Q38,372,40,311Q42,250,54,197Q66,144,116.5,
+                        125.5Q167,107,208.5,82.5Q250,58,287.5,89Q325,120,364,141Q403,162,429,206Q455,250,445.5,304Z;
+
+                        M421.5,300Q423,350,384,382.5Q345,415,297.5,439Q250,463,188,464Q126,465,115.5,399.5Q105,334,100.5,292Q96,250,72.5,192Q49,134,
+                        101.5,109.5Q154,85,202,63.5Q250,42,297.5,64Q345,86,395,111.5Q445,137,432.5,193.5Q420,250,421.5,300Z;
+
+                        M405.5,292.5Q397,335,366,366.5Q335,398,292.5,448Q250,498,202,457.5Q154,417,136,371.5Q118,326,107.5,288Q97,250,83.5,198Q70,146,
+                        122.5,133Q175,120,212.5,87Q250,54,307,53Q364,52,394.5,100.5Q425,149,419.5,199.5Q414,250,405.5,292.5Z;
+
+                        M431.7717,304.55914Q439.20699,359.11828,393.99443,389.75691Q348.78187,420.39554,299.39094,450.5841Q250,480.77266,204.15342,
+                        445.01018Q158.30684,409.2477,102.83737,387.86597Q47.3679,366.48425,45.91225,308.24213Q44.45661,250,44.73848,190.67838Q45.02035,
+                        131.35676,102.25787,112.32719Q159.49539,93.29762,204.7477,52.976Q250,12.65438,306.13863,34.04992Q362.27727,55.44547,
+                        382.01018,109.11367Q401.74309,162.78187,413.03975,206.39094Q424.33641,250,431.7717,304.55914Z;
+
+                        M411.5,299.5Q422,349,376,368.5Q330,388,290,429.5Q250,471,193.5,458Q137,445,112,394.5Q87,344,93,297Q99,250,70.5,190Q42,130,93,98Q144,66,197,
+                        34Q250,2,305,30.5Q360,59,390,105.5Q420,152,410.5,201Q401,250,411.5,299.5Z;
+
+                        M432.5,295Q405,340,387.5,399Q370,458,310,449Q250,440,207,419Q164,398,128,369.5Q92,341,57,295.5Q22,250,31,189Q40,128,93.5,99.5Q147,71,198.5,
+                        60Q250,49,296,70Q342,91,367.5,129Q393,167,426.5,208.5Q460,250,432.5,295Z;
+
+                        M464,306Q444,362,396,390.5Q348,419,299,440Q250,461,199,444Q148,427,125.5,381Q103,335,68.5,292.5Q34,250,37.5,189.5Q41,129,98.5,108Q156,87,203,
+                        47.5Q250,8,308,28Q366,48,376.5,109.5Q387,171,435.5,210.5Q484,250,464,306Z;
+
+                        M402.40616,293.36537Q399.77878,336.73073,385.47114,397.8702Q371.1635,459.00967,310.58175,448.94953Q250,438.88939,201.10577,429.25959Q152.21154,419.6298,
+                        111.81248,386.26443Q71.41341,352.89907,83.76685,301.44953Q96.12028,250,72.77169,192.13222Q49.42309,134.26443,88.49758,86.41583Q127.57207,38.56724,188.78604,
+                        45.92067Q250,53.27411,301.68268,62.2188Q353.36537,71.1635,375.97356,117.39665Q398.58175,163.6298,401.80764,206.8149Q405.03354,250,402.40616,293.36537Z;
+
+                        M405,295.5Q408,341,371.5,369.5Q335,398,292.5,441.5Q250,485,208,440Q166,395,127,369.5Q88,344,68,297Q48,250,53.5,195Q59,140,
+                        107,112.5Q155,85,202.5,64Q250,43,296.5,65.5Q343,88,386,117.5Q429,147,415.5,198.5Q402,250,405,295.5Z;
+
+                        "
+                    ></animate>
+                </path>
+            </svg>
+        </div>
+
+        <div class="liquid-shape">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <path fill="#12f7ff">
+                    <animate attributeName="d"
+                        dur="20000ms"
+                        repeatCount="indefinite"
+                        values="
+                        M405,295.5Q408,341,371.5,369.5Q335,398,292.5,441.5Q250,485,208,440Q166,395,127,369.5Q88,344,68,297Q48,250,53.5,195Q59,140,
+                        107,112.5Q155,85,202.5,64Q250,43,296.5,65.5Q343,88,386,117.5Q429,147,415.5,198.5Q402,250,405,295.5Z;
+
+                        M457,301Q427,352,399.5,406.5Q372,461,311,470.5Q250,480,211.5,432Q173,384,136,360.5Q99,337,64,293.5Q29,250,67,208Q105,166,
+                        132,129Q159,92,204.5,57Q250,22,311,31Q372,40,380.5,105Q389,170,438,210Q487,250,457,301Z;
+
+                        M445.5,304Q436,358,404,409.5Q372,461,311,438.5Q250,416,195,428.5Q140,441,89,406.5Q38,372,40,311Q42,250,54,197Q66,144,116.5,
+                        125.5Q167,107,208.5,82.5Q250,58,287.5,89Q325,120,364,141Q403,162,429,206Q455,250,445.5,304Z;
+
+                        M421.5,300Q423,350,384,382.5Q345,415,297.5,439Q250,463,188,464Q126,465,115.5,399.5Q105,334,100.5,292Q96,250,72.5,192Q49,134,
+                        101.5,109.5Q154,85,202,63.5Q250,42,297.5,64Q345,86,395,111.5Q445,137,432.5,193.5Q420,250,421.5,300Z;
+
+                        M405.5,292.5Q397,335,366,366.5Q335,398,292.5,448Q250,498,202,457.5Q154,417,136,371.5Q118,326,107.5,288Q97,250,83.5,198Q70,146,
+                        122.5,133Q175,120,212.5,87Q250,54,307,53Q364,52,394.5,100.5Q425,149,419.5,199.5Q414,250,405.5,292.5Z;
+
+                        M431.7717,304.55914Q439.20699,359.11828,393.99443,389.75691Q348.78187,420.39554,299.39094,450.5841Q250,480.77266,204.15342,
+                        445.01018Q158.30684,409.2477,102.83737,387.86597Q47.3679,366.48425,45.91225,308.24213Q44.45661,250,44.73848,190.67838Q45.02035,
+                        131.35676,102.25787,112.32719Q159.49539,93.29762,204.7477,52.976Q250,12.65438,306.13863,34.04992Q362.27727,55.44547,
+                        382.01018,109.11367Q401.74309,162.78187,413.03975,206.39094Q424.33641,250,431.7717,304.55914Z;
+
+                        M411.5,299.5Q422,349,376,368.5Q330,388,290,429.5Q250,471,193.5,458Q137,445,112,394.5Q87,344,93,297Q99,250,70.5,190Q42,130,93,98Q144,66,197,
+                        34Q250,2,305,30.5Q360,59,390,105.5Q420,152,410.5,201Q401,250,411.5,299.5Z;
+
+                        M432.5,295Q405,340,387.5,399Q370,458,310,449Q250,440,207,419Q164,398,128,369.5Q92,341,57,295.5Q22,250,31,189Q40,128,93.5,99.5Q147,71,198.5,
+                        60Q250,49,296,70Q342,91,367.5,129Q393,167,426.5,208.5Q460,250,432.5,295Z;
+
+                        M464,306Q444,362,396,390.5Q348,419,299,440Q250,461,199,444Q148,427,125.5,381Q103,335,68.5,292.5Q34,250,37.5,189.5Q41,129,98.5,108Q156,87,203,
+                        47.5Q250,8,308,28Q366,48,376.5,109.5Q387,171,435.5,210.5Q484,250,464,306Z;
+
+                        M402.40616,293.36537Q399.77878,336.73073,385.47114,397.8702Q371.1635,459.00967,310.58175,448.94953Q250,438.88939,201.10577,429.25959Q152.21154,419.6298,
+                        111.81248,386.26443Q71.41341,352.89907,83.76685,301.44953Q96.12028,250,72.77169,192.13222Q49.42309,134.26443,88.49758,86.41583Q127.57207,38.56724,188.78604,
+                        45.92067Q250,53.27411,301.68268,62.2188Q353.36537,71.1635,375.97356,117.39665Q398.58175,163.6298,401.80764,206.8149Q405.03354,250,402.40616,293.36537Z;
+
+                        M405,295.5Q408,341,371.5,369.5Q335,398,292.5,441.5Q250,485,208,440Q166,395,127,369.5Q88,344,68,297Q48,250,53.5,195Q59,140,
+                        107,112.5Q155,85,202.5,64Q250,43,296.5,65.5Q343,88,386,117.5Q429,147,415.5,198.5Q402,250,405,295.5Z;
+
+                        "
+                    ></animate>
+                </path>
+            </svg>
         </div>
     </div>
 
