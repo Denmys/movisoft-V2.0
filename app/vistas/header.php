@@ -4,7 +4,7 @@
     </div>
     <ul class="navlist">
         <li><a href="#home"> Inicio</a></li>
-        <li><a href="#conocenos">Conócenos</a></li>
+        <li><a href="#about">Conócenos</a></li>
         <li><a href="#servicio">Servicios</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#portafolio">Portafolio</a></li>
