@@ -19,6 +19,13 @@
     --normal-font:2rem;
     --neon-box-shadow: 0 0 .5rem #12f7ff;
     --h2-font: 3rem;
+    --movisoft-logo-color: #000000;
+    --movisoft-logoS-color: #0d47a1;
+    --movisoft-logoO-color: #1565c0;
+    --movisoft-logoF-color: #1976d2;
+    --movisoft-logoT-color: #1e88e5;
+
+
     --font-neon-text-shadow: 0 0 10px rgba(18,247,255,0.3),
     0 0 20px rgba(18,247,255,0.3),
     0 0 30px rgba(18,247,255,0.3),
@@ -365,7 +372,9 @@ a.btn:nth-child(2)::before{
 .about-content p{
     color: #fdfdfd;
     font-weight: 300;
-    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-bottom: 1.6rem;
 }
 
 .info-about1,
@@ -412,13 +421,139 @@ a.btn:nth-child(2)::before{
     color: var(--text-color);
 }
 
+/* Estilos de la Sección Servicios */
+.servicios {
+    display: flex;
+    background-image: linear-gradient(
+        to bottom right,
+        #071d3d 0%,
+        #092a5c 20%,
+        #071d3d 40%,
+        #153c77 60%,
+        #071d3d 80%
+    );
+    background-size: 200% 200%;
+    animation: movimiento 5s linear infinite alternate;
+}
+.main-text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--hover-color);
+}
+.main-text h1{
+    font-weight: 700;
+    font-size: var(--normal-font); 
+}
 
+.main-text span{
+    letter-spacing: 1px;
+}
+
+.main-text p{
+    color: var(--text-color);
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.movisoftLogo{
+   background-color: #fefefe;
+   border-radius: 8px;
+   padding: 4px;
+}
+
+.movisoftLogo .Movi{
+    color: var(--movisoft-logo-color);
+    font-weight: bold;
+}
+
+.movisoftLogo .S {
+    color: var(--movisoft-logoS-color);
+}
+
+.movisoftLogo .o {
+    color: var(--movisoft-logoO-color);
+}
+
+.movisoftLogo .f {
+    color: var(--movisoft-logoF-color);
+}
+
+.movisoftLogo .t {
+    color: var(--movisoft-logoT-color);
+}
+
+.section-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 2rem;
+}
+
+.section-service .service-box{
+    flex: 1 1 18rem;
+    padding: 2rem 1rem 2rem;
+    text-align: center;
+    background: var(--secon-bg-color);
+    transition: transform .4s;
+    border-radius: 10px;
+    box-shadow: var(--neon-box-shadow);
+}
+
+.service-box h2{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+.service-box p {
+    margin: .5rem 0 1.5rem 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.service-btn {
+    width: auto;
+    justify-content: center;
+}
+
+.service-box:hover{
+    transform: translateY(-.7rem);
+
+}
+
+.service-icon{
+    border: 2px solid var(--hover-color);
+    padding: 1.5rem;
+    background: var(--bd-color);
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 50%;
+    position: relative;
+    color: var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+    outline: 3px solid var(--bd-color);
+
+}
 
 
 
 
 
 /* ----------KeyFrames---------------------------------- */
+
+      /** Animando Bacground de Secciones **/
+
+      @keyframes movimiento {
+        from {
+            background-position: 0% 0%;
+    }
+        to {
+            background-position: 100% 100%;
+    }
+}
 
 @keyframes morph{
     0%,

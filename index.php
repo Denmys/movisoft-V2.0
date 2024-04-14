@@ -15,6 +15,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link href="http://localhost/movisoft-V2.0/favicon.ico" rel="shortcut icon">
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#071d3d">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -51,6 +52,8 @@
     <?php require_once "./app/vistas/header.php" ?>
     <?php require_once "./app/vistas/SeccionInicio.php" ?>
     <?php require_once "./app/vistas/about.php"?>
+    <?php require_once "./app/vistas/servicios.php" ?>
+    
 
 <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCRVLM2"
