@@ -14,7 +14,7 @@
     --text-color: #f5f5f5;
     --hover-color: #12f7ff;
     --bd-color: #071d3d;
-    --secon-bg-color: #292e33;
+    --secon-bg-color: #2a303f;
     --big-font: 2.5rem;
     --normal-font:2rem;
     --neon-box-shadow: 0 0 .5rem #12f7ff;
@@ -29,10 +29,19 @@
     0 0 150px rgba(18,247,255,0.3);
 }
 
+h1, h2, h3, h4{
+    text-wrap: balance;
+}
+
+p{
+    text-wrap: pretty;
+}
+
 body{
     font-family: "Lato", sans-serif;
     background-color: var(--bd-color);
     color: var(--text-color);
+    min-height: 100dvh;
 }
 
 header{
@@ -97,6 +106,7 @@ section{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     grid-gap: 4em;
+    will-change: transform; 
 }
 
 .home-content{
@@ -314,7 +324,11 @@ a.btn:nth-child(2)::before{
     justify-content: center;
     align-items: center;
     grid-gap: 4em;
-    background: var(--secon-bg-color);  
+    background: var(--secon-bg-color); 
+    animation: parallax linear;
+    animation-timeline: scroll();
+    will-change: transform; 
+
 }
 
 .about .img-about{
@@ -323,11 +337,12 @@ a.btn:nth-child(2)::before{
 }
 
 .about .img-about img{
-    max-width: 400px;
+    max-width: 350px;
     height: auto;
 }
 
 .about-content span{
+    will-change: transform; 
     color: #fdfdfd;
     font-size: .8rem;
     font-weight: 200;
@@ -360,8 +375,8 @@ a.btn:nth-child(2)::before{
     font-size: .5rem;
     position: absolute;
     padding: 10px;
-    width: 90px;
-    height: 90px;
+    width: 81px;
+    height: 81px;
     border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
     display: block;
     box-shadow: var(--neon-box-shadow);
@@ -371,14 +386,42 @@ a.btn:nth-child(2)::before{
     animation: morph 6s linear infinite;
 }
 
+.info-about1{
+    left: 8%;
+    top: 26%;
+}
+
+.info-about2{
+    left: 74%;
+    top: 15%;
+}
+
+.info-about3{
+    left: 39%;
+    top: 66%;
+}
+
+.img-about span{
+    color: var(--hover-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.img-about p{
+    font-size: .6rem;
+    color: var(--text-color);
+}
 
 
 
 
 
+
+
+/* ----------KeyFrames---------------------------------- */
 
 @keyframes morph{
-    0%
+    0%,
     100%{
         border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%; 
     }
@@ -391,6 +434,6 @@ a.btn:nth-child(2)::before{
     }
 
     80%{
-        border-radius: 69% 31% 66% 34% / 40% 40% 60% 50%;
+        border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
     }
 }
