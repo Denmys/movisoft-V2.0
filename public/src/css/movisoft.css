@@ -1,5 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: 'latoblack';
+    src: url('../../../includes/tipografias/lato_black.woff2') format('woff2'),
+         url('../../../includes/tipografias/lato_black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 *{
     padding: 0;
@@ -45,7 +52,7 @@ p{
 }
 
 body{
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     background-color: var(--bd-color);
     color: var(--text-color);
     min-height: 100dvh;
