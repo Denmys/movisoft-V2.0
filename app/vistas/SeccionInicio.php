@@ -23,8 +23,13 @@
         </div>
         <br>
         <p>En el vertiginoso mundo de la tecnología, tener un socio confiable para tus necesidades informáticas es esencial. 
-            En MoviSoft, entendemos las complejidades y desafíos que enfrentas en la era digital en constante evolución. 
-            Como líderes en la industria de los servicios informáticos, nos enorgullece ser tu guía en este viaje hacia la 
+            En <span class="movisoftLogo"> 
+                    <span class="Movi"><strong>Movi</strong></span>
+                    <span class="S">S</span><span class="o">o</span>
+                    <span class="f">f</span><span class="t">t</span>
+                </span>, 
+        entendemos las complejidades y desafíos que enfrentas en la era digital en constante evolución. 
+            Como Empresa de Servicios Informáticos, nos enorgullece ser tu guía en este viaje hacia la 
             eficiencia tecnológica y el éxito empresarial.</p>
         <br>
         <div class="info-box">

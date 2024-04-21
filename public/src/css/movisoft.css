@@ -545,6 +545,137 @@ a.btn:nth-child(2)::before{
 
 }
 
+/* ----------Habilidades (Skills) CSS---------------------*/
+
+.skills{
+    background: var(--secon-bg-color);
+}
+
+.skill-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    column-gap: 50px;
+}
+
+.skill-bar{
+    margin-bottom: 2.5rem;
+}
+
+.skill-main h3{
+    margin-bottom: 2rem;
+    font-size: var(--normal-font);
+    text-align: center;
+}
+
+.skill-left .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.skill-left .skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: var(--bd-color);
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: var(--hover-color);
+    border-radius: 25px;
+    box-shadow: var(--neon-box-shadow);
+}
+
+.skill-bar .bar .software{
+    width: 78%;
+    animation: software 2s;
+}
+
+.skill-bar .bar .mantenimiento{
+    width: 92%;
+    animation: mantenimiento 5s;
+}
+
+.skill-bar .bar .reparacion{
+    width: 89%;
+    animation: reparacion 4s ;
+}
+
+.skill-bar .bar .redes{
+    width: 85%;
+    animation: redes 3s;
+}
+
+/* ----------- Skill Right --------------*/
+
+.professional{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.box{
+    position: relative;
+    margin: 10px 0;
+    flex: 1 1 15rem;
+}
+
+.box .text{
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.box .text big{
+    font: 400;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.box .text small{
+    display: block;
+    font-weight: 600;
+}
+
+.circle{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+}
+
+.circle .points{
+    width: 2px;
+    height: 10px;
+    background-color: var(--bd-color);
+    position: absolute;
+    border-radius: 3px;
+    transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
+}
+
+.points.marked{
+    animation: glow 0.04s linear forwards;
+    animation-delay: calc(var(--i)*0.05s);
+}
+
+
+
+
+
+
 
 
 
@@ -579,3 +710,52 @@ a.btn:nth-child(2)::before{
         border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
     }
 }
+
+@keyframes software{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes mantenimiento{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 92%;
+    }
+}
+
+@keyframes reparacion{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 89%;
+    }
+}
+
+@keyframes redes{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 81%;
+    }
+}
+
+@keyframes glow{
+    0%{
+        background: var(--bd-color);
+        box-shadow: none;
+    }
+    100%{
+        background: var(--hover-color);
+        box-shadow: var(--neon-box-shadow);
+
+    }
+}
+

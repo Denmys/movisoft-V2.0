@@ -8,7 +8,7 @@
         <br>
         <p>En <span class="movisoftLogo">
         <span class="Movi"><strong>Movi</strong></span><span class="S">S</span><span class="o">o</span><span class="f">f</span><span class="t">t</span>
-        </span> , somos líderes en proporcionar soluciones integrales en consultoría tecnológica y marketing digital. 
+        </span> , proporcionamos soluciones integrales en consultoría tecnológica y marketing digital. 
             Nos especializamos en el desarrollo de páginas web y aplicaciones móviles utilizando tecnologías avanzadas como Python y React. 
             Nuestro enfoque se centra en la eficiencia y la innovación, empleando herramientas de vanguardia que optimizan 
             y agilizan nuestros procesos de desarrollo.</p> <br>
