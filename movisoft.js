@@ -115,7 +115,6 @@ circles.forEach(elem=>{
     var points = "";
     var rotate = 360 / dots ;
 
-
     for(let i = 0 ; i < dots ; i++ ){
         points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
     }
@@ -126,3 +125,6 @@ circles.forEach(elem=>{
         pointsMarked[i].classList.add('marked');
     }
 })
+
+// Aplicando mix a Seccion de Ofertas //////////////////////////////////////////
+var mixer = mixitup('.ofertas-gallery');

@@ -49,10 +49,18 @@
 <body>
         <!-- Agregando el Header -->
     <?php require_once "./app/vistas/header.php" ?>
+    <!-- Sección Inicio -->
     <?php require_once "./app/vistas/SeccionInicio.php" ?>
+    <!-- Sección About -->
     <?php require_once "./app/vistas/about.php"?>
+    <!-- Sección Servicios -->
     <?php require_once "./app/vistas/servicios.php" ?>
+    <!-- Sección Skills -->
     <?php require_once "./app/vistas/skills.php" ?>
+    <!-- Sección Ofertas -->
+    <?php require_once "./app/vistas/ofertas.php" ?>
+    <!-- Formulario de Contacto -->
+    <?php require_once "./app/vistas/contacto.php" ?>
     
 
 <!-- Google Tag Manager (noscript) -->
@@ -63,6 +71,7 @@
 
 <!-- Agregando Archivos JS (noscript) -->
 
+    <script src="mixitup.min.js"></script>
     <script src="movisoft.js"></script>
 
 <!-- Agregando Archivos JS (noscript) -->
