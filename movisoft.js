@@ -128,3 +128,58 @@ circles.forEach(elem=>{
 
 // Aplicando mix a Seccion de Ofertas //////////////////////////////////////////
 var mixer = mixitup('.ofertas-gallery');
+
+//   Menu Activo  //////////////////////////////////////////
+
+let menuLi = document.querySelectorAll('header ul li a');
+let section = document.querySelectorAll('section');
+
+function activeMenu(){
+    let len = section.length;
+    while(--len && window.scrollY + 97 < section[len].offsetTop){}
+    menuLi.forEach(sec => sec.classList.remove("active"));
+    menuLi[len].classList.add("active");
+}
+
+activeMenu();
+window.addEventListener("scroll",activeMenu);
+
+//   Sticky Menu  //////////////////////////////////////////
+
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.querySelector('header');
+
+    window.addEventListener('scroll', function() {
+        // Control de flujo para reducir la frecuencia de ejecución
+        if (!header.classList.contains('isThrottled')) {
+            header.classList.add('isThrottled');
+
+            setTimeout(() => {
+                // Manejo de la clase 'scrolled'
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+
+                // Limpieza de la clase 'isThrottled'
+                header.classList.remove('isThrottled');
+            }, 20); // Ajusta el tiempo según sea necesario
+        }
+    });
+});
+
+
+//   Menu Amburguesa (Toggle Icon)  //////////////////////////////////////////
+
+const menuButton = document.querySelector('.bx-menu'); // Asegúrate de tener el botón con esta clase
+const navList = document.querySelector('.navlist');
+menuButton.addEventListener('click', () => {
+    menuButton.classList.toggle("bx-x")
+    navList.classList.toggle('active'); // Añade o quita la clase 'active'
+});
+
+window.onscroll = ()=>{
+    menuButton.classList.remove("bx-x");
+    navList.classList.remove("active");
+}

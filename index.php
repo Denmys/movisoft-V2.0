@@ -61,6 +61,8 @@
     <?php require_once "./app/vistas/ofertas.php" ?>
     <!-- Formulario de Contacto -->
     <?php require_once "./app/vistas/contacto.php" ?>
+    <!------ Footer -------->
+    <?php require_once "./app/vistas/footer.php" ?>
     
 
 <!-- Google Tag Manager (noscript) -->

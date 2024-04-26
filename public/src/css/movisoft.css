@@ -43,6 +43,22 @@
     0 0 150px rgba(18,247,255,0.3);
 }
 
+::-webkit-scrollbar{
+    height: 0;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--secon-bg-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--hover-color);
+    border-radius: 5rem;
+}
+
+
+
 h1, h2, h3, h4{
     text-wrap: balance;
 }
@@ -59,16 +75,30 @@ body{
 }
 
 header{
+    position: -webkit-sticky; /* Soporte para Safari */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    border-bottom: 1px solid transparent ;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 20px 10%;
-    background-color: #05012b;
+}
+
+header.scrolled {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Efecto de sombra para el sticky menu */
+    transition: box-shadow 0.3s ease-in-out; /* Transición suave de la sombra */
+    background: var(--bd-color);
+    border-bottom: 1px solid var(--secon-bg-color);
+    padding: 20px 10%;
+
 }
 
 .logo img{
-    width: 12%;
+    width: 14%;
     border-radius: 8px;
 }
 
@@ -92,6 +122,10 @@ header{
     0 0 80px rgba(18,247,255,0.6),
     0 0 100px rgba(18,247,255,0.6),
     0 0 150px rgba(18,247,255,0.6);
+}
+
+.navlist a.active{
+    color: var(--hover-color);
 }
 
 #menu-icon{
@@ -823,34 +857,172 @@ section{
     font-size: 1rem;
 }
 
+/* ------- Footer CSS --------- */
 
+footer{
+    padding: 1.5rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+footer p{
+    color: #bdbdbd;
+}
 
+footer a{
+    display: inline-flex;
+    justify-content: center;
+    color: var(--text-color);
+    background: var(--hover-color);
+    padding: .6rem;
+    border-radius: 5px;
+}
 
+footer a i{
+    font-size: 1rem;
+    color: var(--secon-bg-color);
+}
 
+/* ----------- Puntos de Ruptura ------------- */
 
+@media (min-width: 1201px){
+    section{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        display: flex;
+        opacity: 1;
+        position: -webkit-sticky; /* Soporte para Safari */
+        position: sticky;
+        top: 0;
+    }
+    .logo img{
+        width: 120px;
+        transition: margin 0.3s ease, width 0.3s ease;
+    }
+}
 
+@media (max-width: 1200px){
+    section{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .logo img{
+        width: 100px;
+        transition: margin 0.3s ease, width 0.3s ease;
+    }
+    .change-text h3{
+        font-size: 1.4rem;
+    }
 
+    .social-icons {
+        margin-top: 4rem;
+        transition: margin 0.3s ease, width 0.3s ease;
+}
 
+@media (max-width: 768px){
+    #menu-icon{
+        display: block;
+        transition: all .4s ease;
+    }
+    #menu-icon.bx-x{
+        transform: rotate(-180deg);
+    }
+    .navlist{
+        display: flex;
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        background: var(--bd-color);
+        text-align: left;
+        padding: 0 7%;
+        transition: all .45s ease;
+    }
+    .navlist a{
+        display: block;
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .navlist.active{
+        top: 100%;
+    }
+    .home{
+        grid-template-columns: 1fr;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .skill-left h3{
+        font-size: 1.3rem;
+    }
+    .skill-right h3{
+        font-size: 1.3rem;
+    }
+    .skill-main{
+        grid-template-columns: 1fr;
+    }
+    .fillter-buttons{
+        margin: 2.5rem 0;
+    }
+    footer p{
+        text-align: left;
+        font-size: 1rem;
+    }
+   .main-text h1{
+        font-size: 1.6rem;
+   }
+   .main-text span{
+        padding: 1px;
+   }
 
+   .social-icons {
+    margin-top: 4rem;
+    transition: margin 0.3s ease, width 0.3s ease;
+}
 
+@media (max-width: 420px){
+    html{
+        font-size: 80%;
+    }
+    .home-content h1{
+        font-size: 1.8rem;
+    }
+    .eslogan{
+        font-size: 1.3rem;
+    }
+    .change-text h3{
+        font-size: 1.1rem;
+    }
+    
+    .info-box{
+        display: none;
+    }
+    .home-content p{
+        font-size: 1.1rem;
+    }
 
+    footer p{
+        font-size: .7rem;
+    }
 
+    .fillter-buttons .btn{
+        font-size: .8rem;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .img-about img{
+        max-width: 100%;
+        height: auto;
+        width: 400px;
+    }
+    .social-icons {
+        margin-top: 3rem;
+        transition: margin 0.3s ease, width 0.3s ease;
+    }
+}
 
 
 
@@ -944,4 +1116,5 @@ section{
 
     }
 }
+
 
